@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Triangle Detector</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Triangle detector</h1>
+
+      <form id="triangle">
+        <div class="form-group">
+          <label for="side1">Enter the size of side 1:</label>
+          <input id="side1" type="text">
+          <label for="side2">Enter the size of side 2:</label>
+          <input id="side2" type="text">
+          <label for="side3">Enter the size of side 3:</label>
+          <input id="side3" type="text">
+        </div>
+
+        <button type="submit" class="btn">Find out!</button>
+      </form>
+
+      <div id="result">
+        <p>Your values, <span class="sides"></span>, <span class="result"></span>.</p>
+      </div>
+    </div>
+  </body>
+</html>
